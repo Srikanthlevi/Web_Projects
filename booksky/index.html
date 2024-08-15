@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>BookSky</h1>
+        
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, pariatur ipsam voluptas optio eos
+                aspernatur accusantium adipisci, quod enim cumque vel. Odio mollitia recusandae facere eum. Perferendis
+                praesentium quas at?</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Books</h2>
+        <form action="">
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea name="" id="book-description-input" placeholder="short description"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-book">cancel</button>
+        </form>
+    </div>
+
+    <button class="addbtn" id="add-popup-btn">+</button>
+   
+    <div class="watermark">srikanth_levi</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

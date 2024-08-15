@@ -1,0 +1,121 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Book';
+}
+
+.navbar {
+    background-color: #FD6569;
+    padding: 20px;
+}
+button{
+    cursor: pointer;
+}
+
+.container {
+    padding: 10px;
+   
+}
+/* <!-- srikanth.levi --> */
+
+.book-container {
+    width: 25%;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 30px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.book-container h2 {
+    color: #FD6569;
+}
+
+.book-container button {
+    background-color: #FD6569;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.addbtn {
+    background-color: #FD6569;
+    border-radius: 100%;
+    padding: 20px 30px;
+    font-size: 30px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+}
+
+.popup-overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+
+.popup-box {
+    background-color: #FD6569;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    padding: 40px;
+    display: none;
+}
+
+.popup-box input,
+textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.popup-box textarea {
+    border: 2px solid black;
+}
+
+.popup-box input::placeholder,
+textarea::placeholder {
+    color: black;
+}
+
+.popup-box button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+}
+.popup-box input:focus,textarea:focus{
+    outline: none;
+}
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+    pointer-events: none; 
+}
